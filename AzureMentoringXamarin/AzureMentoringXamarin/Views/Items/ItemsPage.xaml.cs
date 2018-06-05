@@ -16,13 +16,13 @@ namespace AzureMentoringXamarin.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ItemsPage : ContentPage
 	{
-        ItemsViewModel viewModel;
+        BlogViewModel viewModel;
 
         public ItemsPage()
         {
             InitializeComponent();
 
-            BindingContext = viewModel = new ItemsViewModel();
+            BindingContext = viewModel = new BlogViewModel();
         }
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
