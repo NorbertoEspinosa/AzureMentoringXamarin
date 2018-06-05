@@ -4,7 +4,14 @@ using System.Text;
 
 namespace AzureMentoringXamarin.Models
 {
-    public class Ipost
+    public interface IPost
     {
+        int Id { get; set; }
+        string About { get; set; }
+        string Content { get; set; }
+        string CreatedAt { get; set; }
+        string Tags { get; set; }
+        string Title { get; set; }
+        int User { get; set; }
     }
 }
