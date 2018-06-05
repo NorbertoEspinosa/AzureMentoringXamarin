@@ -24,13 +24,13 @@ namespace AzureMentoringXamarin.Views
         {
             InitializeComponent();
 
-            var item = new Item
+            var post = new Post
             {
-                Text = "Item 1 hardcoded",
-                Description = "This is post hardcoded description."
+                About = "Post About 1 hardcoded",
+                Content = "This is a post content description hardcoded."
             };
 
-            viewModel = new PostDetailViewModel(item);
+            viewModel = new PostDetailViewModel(post);
             BindingContext = viewModel;
         }
     }

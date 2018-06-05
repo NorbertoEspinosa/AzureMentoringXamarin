@@ -9,9 +9,11 @@
     <ContentPage.Content>
         <StackLayout Spacing="20" Padding="15">
             <Label Text="About" FontSize="Medium" />
-            <Entry Text="{Binding Item.Text}" FontSize="Small" />
+            <Entry Text="{Binding Post.About}" FontSize="Small" />
             <Label Text="Content" FontSize="Medium" />
-            <Editor Text="{Binding Item.Description}" FontSize="Small" Margin="0" />
+            <Editor Text="{Binding Post.Content}" FontSize="Small" Margin="0" />
+            <Label Text="Tags" FontSize="Medium" />
+            <Editor Text="{Binding Post.Tags}" FontSize="Small" Margin="0" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

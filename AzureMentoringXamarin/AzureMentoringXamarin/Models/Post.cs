@@ -19,7 +19,7 @@ namespace AzureMentoringXamarin.Models
         public Post()
         { }
 
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Title { get; set; }
         public string About { get; set; }
         public string Content { get; set; }

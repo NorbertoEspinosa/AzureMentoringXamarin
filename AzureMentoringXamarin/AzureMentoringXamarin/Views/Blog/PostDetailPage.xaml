@@ -5,10 +5,10 @@
              Title="{Binding Title}">
     <StackLayout Spacing="20" Padding="15">
         <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" FontSize="Small"/>
+        <Label Text="{Binding Post.About}" FontSize="Small"/>
         <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Item.Description}" FontSize="Small"/>
-        <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Item.Description}" FontSize="Small"/>
+        <Label Text="{Binding Post.Content}" FontSize="Small"/>
+        <Label Text="Tags:" FontSize="Medium" />
+        <Label Text="{Binding Post.Tags}" FontSize="Small"/>
     </StackLayout>
 </ContentPage>

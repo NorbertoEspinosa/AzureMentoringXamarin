@@ -27,7 +27,7 @@ namespace AzureMentoringXamarin.Views
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            var item = args.SelectedItem as Item;
+            var item = args.SelectedItem as Post;
             if (item == null)
                 return;
 
@@ -46,7 +46,7 @@ namespace AzureMentoringXamarin.Views
         {
             base.OnAppearing();
 
-            if (viewModel.Items.Count == 0)
+            if (viewModel.BlogPosts.Count == 0)
                 viewModel.LoadItemsCommand.Execute(null);
         }
     }

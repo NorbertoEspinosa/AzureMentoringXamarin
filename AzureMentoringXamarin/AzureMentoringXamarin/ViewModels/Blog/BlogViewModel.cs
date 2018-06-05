@@ -10,22 +10,22 @@ using AzureMentoringXamarin.Views;
 
 namespace AzureMentoringXamarin.ViewModels
 {
-    public class BlogViewModel : BaseViewModel
+    public class BlogViewModel : BlogBaseViewModel
     {
-        public ObservableCollection<Item> Items { get; set; }
+        public ObservableCollection<Post> BlogPosts { get; set; }
         public Command LoadItemsCommand { get; set; }
 
         public BlogViewModel()
         {
             Title = "Browse posts";
-            Items = new ObservableCollection<Item>();
+            BlogPosts = new ObservableCollection<Post>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
-            MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddPost", async (obj, item) =>
+            MessagingCenter.Subscribe<NewPostPage, Post>(this, "AddPost", async (obj, item) =>
             {
-                var _item = item as Item;
-                Items.Add(_item);
-                await DataStore.AddItemAsync(_item);
+                var _post = item as Post;
+                BlogPosts.Add(_post);
+                await DataStore.AddItemAsync(_post);
             });
         }
 
@@ -38,11 +38,11 @@ namespace AzureMentoringXamarin.ViewModels
 
             try
             {
-                Items.Clear();
-                var items = await DataStore.GetItemsAsync(true);
-                foreach (var item in items)
+                BlogPosts.Clear();
+                var posts = await DataStore.GetItemsAsync(true);
+                foreach (var post in posts)
                 {
-                    Items.Add(item);
+                    BlogPosts.Add(post);
                 }
             }
             catch (Exception ex)

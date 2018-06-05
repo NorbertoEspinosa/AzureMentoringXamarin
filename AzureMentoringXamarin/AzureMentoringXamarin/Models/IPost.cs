@@ -6,7 +6,7 @@ namespace AzureMentoringXamarin.Models
 {
     public interface IPost
     {
-        int Id { get; set; }
+        string Id { get; set; }
         string About { get; set; }
         string Content { get; set; }
         string CreatedAt { get; set; }

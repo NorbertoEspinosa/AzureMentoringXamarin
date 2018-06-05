@@ -11,16 +11,17 @@ namespace AzureMentoringXamarin.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewPostPage : ContentPage
     {
-        public Item Item { get; set; }
+        public Post Post { get; set; }
 
         public NewPostPage()
         {
             InitializeComponent();
 
-            Item = new Item
+            Post = new Post
             {
-                Text = "Post name",
-                Description = "This is a post content description."
+                About = "Post about",
+                Content = "This is a post content description.",
+                Tags = "Post, About, New"
             };
 
             BindingContext = this;
@@ -28,7 +29,7 @@ namespace AzureMentoringXamarin.Views
 
         async void Save_Clicked(object sender, EventArgs e)
         {
-            MessagingCenter.Send(this, "AddPost", Item);
+            MessagingCenter.Send(this, "AddPost", Post);
             await Navigation.PopModalAsync();
         }
     }
