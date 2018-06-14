@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -93,10 +93,10 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AzureMentoringXamarin\AzureMentoringXamarin.csproj">
-      <Project>{2127EBFC-DC80-445B-8646-E673F86B3C2F}</Project>
-      <Name>AzureMentoringXamarin</Name>
+    <ProjectReference Include="..\AzureMentoringXamarin\AzureXamarinBlog.csproj">
+      <Project>{426A4B98-DEC4-4999-B2DB-D7472A2F8CDF}</Project>
+      <Name>AzureXamarinBlog</Name>
     </ProjectReference>
   </ItemGroup>
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

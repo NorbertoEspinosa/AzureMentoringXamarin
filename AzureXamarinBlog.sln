@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMentoringXamarin.Android", "AzureMentoringXamarin\AzureMentoringXamarin.Android\AzureMentoringXamarin.Android.csproj", "{0B6F1CF5-2F05-4F11-AB81-A0F227E87607}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureXamarinBlog.Android", "AzureMentoringXamarin\AzureMentoringXamarin.Android\AzureXamarinBlog.Android.csproj", "{0B6F1CF5-2F05-4F11-AB81-A0F227E87607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMentoringXamarin.iOS", "AzureMentoringXamarin\AzureMentoringXamarin.iOS\AzureMentoringXamarin.iOS.csproj", "{833DC8B2-C7F7-4475-92A8-58ADDC3A9172}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureXamarinBlog.iOS", "AzureMentoringXamarin\AzureMentoringXamarin.iOS\AzureXamarinBlog.iOS.csproj", "{833DC8B2-C7F7-4475-92A8-58ADDC3A9172}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMentoringXamarin.MobileAppService", "AzureMentoringXamarin\AzureMentoringXamarin.MobileAppService\AzureMentoringXamarin.MobileAppService.csproj", "{9A3C1666-DAFC-415D-A2A9-6A3521D4F885}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureXamarinBlog.MobileAppService", "AzureMentoringXamarin\AzureMentoringXamarin.MobileAppService\AzureXamarinBlog.MobileAppService.csproj", "{9A3C1666-DAFC-415D-A2A9-6A3521D4F885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMentoringXamarin", "AzureMentoringXamarin\AzureMentoringXamarin\AzureMentoringXamarin.csproj", "{426A4B98-DEC4-4999-B2DB-D7472A2F8CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureXamarinBlog", "AzureMentoringXamarin\AzureMentoringXamarin\AzureXamarinBlog.csproj", "{426A4B98-DEC4-4999-B2DB-D7472A2F8CDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
