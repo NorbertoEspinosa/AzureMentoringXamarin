@@ -93,7 +93,7 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AzureMentoringXamarin\AzureXamarinBlog.csproj">
+    <ProjectReference Include="..\AzureXamarinBlog\AzureXamarinBlog.csproj">
       <Project>{426A4B98-DEC4-4999-B2DB-D7472A2F8CDF}</Project>
       <Name>AzureXamarinBlog</Name>
     </ProjectReference>
