@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AzureMentoringXamarin.Models
+namespace AzureXamarinBlog.Models
 {
 	public class Item
 	{

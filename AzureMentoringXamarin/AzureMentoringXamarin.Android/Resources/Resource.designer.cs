@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("AzureMentoringXamarin.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("AzureXamarinBlog.Droid.Resource", IsApplication=true)]
 
-namespace AzureMentoringXamarin.Droid
+namespace AzureXamarinBlog.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace AzureMentoringXamarin.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::AzureMentoringXamarin.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::AzureXamarinBlog.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

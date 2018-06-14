@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using AzureMentoringXamarin.Models;
+using AzureXamarinBlog.Models;
 
-namespace AzureMentoringXamarin.Views
+namespace AzureXamarinBlog.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewPostPage : ContentPage

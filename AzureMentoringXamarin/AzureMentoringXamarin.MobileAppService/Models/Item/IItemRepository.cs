@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AzureMentoringXamarin.Models
+namespace AzureXamarinBlog.Models
 {
 	public interface IItemRepository
 	{

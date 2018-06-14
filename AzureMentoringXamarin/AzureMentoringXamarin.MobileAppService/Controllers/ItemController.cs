@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
 
-using AzureMentoringXamarin.Models;
+using AzureXamarinBlog.Models;
 
-namespace AzureMentoringXamarin.Controllers
+namespace AzureXamarinBlog.Controllers
 {
     [Route("api/[controller]")]
     public class ItemController : Controller

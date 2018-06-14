@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace AzureMentoringXamarin.iOS
+namespace AzureXamarinBlog.iOS
 {
     public class Application
     {

@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Plugin.Connectivity;
-using AzureMentoringXamarin.Models;
+using AzureXamarinBlog.Models;
 
-namespace AzureMentoringXamarin.Services
+namespace AzureXamarinBlog.Services
 {
 	public class AzureDataStore : IDataStore<Item>
 	{

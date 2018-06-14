@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using AzureMentoringXamarin.Models;
-using AzureMentoringXamarin.Views;
-using AzureMentoringXamarin.ViewModels;
+using AzureXamarinBlog.Models;
+using AzureXamarinBlog.Views;
+using AzureXamarinBlog.ViewModels;
 
-namespace AzureMentoringXamarin.Views
+namespace AzureXamarinBlog.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ItemsPage : ContentPage

@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using AzureMentoringXamarin.Models;
-using AzureMentoringXamarin.Views;
+using AzureXamarinBlog.Models;
+using AzureXamarinBlog.Views;
 
-namespace AzureMentoringXamarin.ViewModels
+namespace AzureXamarinBlog.ViewModels
 {
     public class BlogViewModel : BlogBaseViewModel
     {

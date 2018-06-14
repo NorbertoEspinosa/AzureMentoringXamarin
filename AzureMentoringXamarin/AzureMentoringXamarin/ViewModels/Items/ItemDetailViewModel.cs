@@ -1,9 +1,9 @@
 ﻿using System;
 
-using AzureMentoringXamarin.Models;
+using AzureXamarinBlog.Models;
 using Xamarin.Forms;
 
-namespace AzureMentoringXamarin.ViewModels
+namespace AzureXamarinBlog.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {

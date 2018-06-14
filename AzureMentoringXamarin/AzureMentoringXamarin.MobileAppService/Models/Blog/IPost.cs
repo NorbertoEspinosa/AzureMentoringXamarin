@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AzureMentoringXamarin.Models
+namespace AzureXamarinBlog.Models
 {
     public interface IPost
     {

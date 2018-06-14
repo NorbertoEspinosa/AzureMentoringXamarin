@@ -3,10 +3,10 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using AzureMentoringXamarin.Models;
-using AzureMentoringXamarin.ViewModels;
+using AzureXamarinBlog.Models;
+using AzureXamarinBlog.ViewModels;
 
-namespace AzureMentoringXamarin.Views
+namespace AzureXamarinBlog.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class PostDetailPage : ContentPage

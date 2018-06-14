@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Concurrent;
 
-namespace AzureMentoringXamarin.Models
+namespace AzureXamarinBlog.Models
 {
 	public class PostRepository : IPostRepository
     {

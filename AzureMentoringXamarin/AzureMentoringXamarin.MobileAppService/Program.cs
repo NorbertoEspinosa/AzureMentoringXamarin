@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 
-namespace AzureMentoringXamarin.MobileAppService
+namespace AzureXamarinBlog.MobileAppService
 {
 	public class Program
 	{

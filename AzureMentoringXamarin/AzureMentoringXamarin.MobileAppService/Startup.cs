@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -7,9 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Swashbuckle.AspNetCore.Swagger;
 
-using AzureMentoringXamarin.Models;
+using AzureXamarinBlog.Models;
 
-namespace AzureMentoringXamarin.MobileAppService
+namespace AzureXamarinBlog.MobileAppService
 {
 	public class Startup
 	{

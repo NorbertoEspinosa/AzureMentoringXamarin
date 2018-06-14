@@ -1,11 +1,10 @@
-﻿using System;
-using Xamarin.Forms;
-using AzureMentoringXamarin.Services;
-using AzureMentoringXamarin.Views;
+﻿using Xamarin.Forms;
+using AzureXamarinBlog.Services;
+using AzureXamarinBlog.Views;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
-namespace AzureMentoringXamarin
+namespace AzureXamarinBlog
 {
 	public partial class App : Application
 	{

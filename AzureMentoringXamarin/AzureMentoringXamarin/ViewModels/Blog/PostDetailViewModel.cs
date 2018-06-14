@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.ObjectModel;
-using AzureMentoringXamarin.Models;
-using AzureMentoringXamarin.Views;
+using AzureXamarinBlog.Models;
+using AzureXamarinBlog.Views;
 using Xamarin.Forms;
 
-namespace AzureMentoringXamarin.ViewModels
+namespace AzureXamarinBlog.ViewModels
 {
     public class PostDetailViewModel : BaseViewModel
     { 

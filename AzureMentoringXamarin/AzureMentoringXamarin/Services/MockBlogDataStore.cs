@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using AzureMentoringXamarin.Models;
+using AzureXamarinBlog.Models;
 
-namespace AzureMentoringXamarin.Services
+namespace AzureXamarinBlog.Services
 {
     public class MockBlogDataStore : IDataStore<Post>
     {

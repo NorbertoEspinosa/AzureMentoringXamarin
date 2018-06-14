@@ -5,10 +5,10 @@ using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
 
-using AzureMentoringXamarin.Models;
-using AzureMentoringXamarin.Services;
+using AzureXamarinBlog.Models;
+using AzureXamarinBlog.Services;
 
-namespace AzureMentoringXamarin.ViewModels
+namespace AzureXamarinBlog.ViewModels
 {
     public class BlogBaseViewModel : INotifyPropertyChanged
     {
