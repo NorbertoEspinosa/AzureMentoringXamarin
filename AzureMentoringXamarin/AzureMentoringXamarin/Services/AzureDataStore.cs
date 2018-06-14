@@ -51,7 +51,7 @@ namespace AzureMentoringXamarin.Services
 
 			var serializedItem = JsonConvert.SerializeObject(item);
 
-			var response = await client.PostAsync($"api/item", new StringContent(serializedItem, Encoding.UTF8, "application/json"));
+			var response = await client.PostAsync($"api/post", new StringContent(serializedItem, Encoding.UTF8, "application/json"));
 
 			return response.IsSuccessStatusCode;
 		}
@@ -65,7 +65,7 @@ namespace AzureMentoringXamarin.Services
 			var buffer = Encoding.UTF8.GetBytes(serializedItem);
 			var byteContent = new ByteArrayContent(buffer);
 
-			var response = await client.PutAsync(new Uri($"api/item/{item.Id}"), byteContent);
+			var response = await client.PutAsync(new Uri($"api/post/{item.Id}"), byteContent);
 
 			return response.IsSuccessStatusCode;
 		}
@@ -75,7 +75,7 @@ namespace AzureMentoringXamarin.Services
 			if (string.IsNullOrEmpty(id) && !CrossConnectivity.Current.IsConnected)
 				return false;
 
-			var response = await client.DeleteAsync($"api/item/{id}");
+			var response = await client.DeleteAsync($"api/post/{id}");
 
 			return response.IsSuccessStatusCode;
 		}

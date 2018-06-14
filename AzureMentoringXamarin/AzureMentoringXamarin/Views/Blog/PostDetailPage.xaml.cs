@@ -12,6 +12,7 @@ namespace AzureMentoringXamarin.Views
 	public partial class PostDetailPage : ContentPage
 	{
         PostDetailViewModel viewModel;
+        public Post Post { get; set; }
 
         public PostDetailPage(PostDetailViewModel viewModel)
         {
@@ -24,14 +25,26 @@ namespace AzureMentoringXamarin.Views
         {
             InitializeComponent();
 
-            var post = new Post
+            Post = new Post
             {
                 About = "Post About 1 hardcoded",
                 Content = "This is a post content description hardcoded."
             };
 
-            viewModel = new PostDetailViewModel(post);
+            viewModel = new PostDetailViewModel(Post);
             BindingContext = viewModel;
+        }
+
+        async void Delete_Clicked(object sender, EventArgs e)
+        {
+            MessagingCenter.Send(this, "DeletePost", Post);
+            await Navigation.PopModalAsync();
+        }
+
+        async void Save_Clicked(object sender, EventArgs e)
+        {
+            MessagingCenter.Send(this, "SavePost", Post);
+            await Navigation.PopModalAsync();
         }
     }
 }

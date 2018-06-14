@@ -1,6 +1,7 @@
 ﻿using System;
 
 using AzureMentoringXamarin.Models;
+using Xamarin.Forms;
 
 namespace AzureMentoringXamarin.ViewModels
 {
